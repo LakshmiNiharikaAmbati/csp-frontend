@@ -1,0 +1,42 @@
+/* .box{
+    width:50%;
+    border: 1px solid cornflowerblue;
+    border-radius: 25px;
+    padding: 0px 20px 20px 20px;
+    margin-left:400px;
+} 
+
+
+*/
+
+.card{
+    margin-right: 290px;;
+}
+
+form {
+    border: 2px solid gray;
+    display: inline-block; 
+    padding: 20px; 
+    margin: 40px; 
+    margin-left: 550px;
+}
+form input{
+    width: 200px;
+    height: 40px; 
+    margin: 15px; 
+} 
+form button{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-size: medium;
+    font-weight: 600; 
+    position: relative;
+}  
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 2px solid black;
+} 
+

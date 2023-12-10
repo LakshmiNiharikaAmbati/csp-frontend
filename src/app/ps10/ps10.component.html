@@ -1,0 +1,49 @@
+<app-navbar></app-navbar>
+
+
+<p>
+  click the button to perform changes on a table<button><a routerLink="/table"routerLinkActive="active"> getall</a></button>
+  </p>
+<div class="toolbar">
+  <button class="toolbar-button">Education using smart phone</button>
+</div>
+<div class="container">
+    <div class="fisrt">
+    <div class="same con"><h1 class="same head">Unit-1:</h1></div><p class="same para">Light-Reflection and Refraction</p>
+    <div class="same con"><h1 class="same head">Unit-2:</h1></div><p class="same para">The Human Eye and the Colourful World</p> 
+    <div class="same con"><h1 class="same head">Unit-3:</h1></div><p class="same para">Electricity</p>
+    <div class="same con"><h1 class="same head">Unit-4:</h1></div><p class="same para">Magnet Effects of Electric Current</p>
+    <div class="same con"><h1 class="same head">Unit-5:</h1></div><p class="same para">Sources of Energy</p>
+</div>
+</div>
+
+<div  class="fix">
+<form>
+    <input type="text" placeholder="Unit name" name="Unitname"  [(ngModel)]="User.Unitname"><br>
+    <input type="text" placeholder="Unit link"  name="Unitlink" [(ngModel)]="User.Unitlink"><br>
+    <button (click)="Insertsci()">INSERT</button>
+    <button (click)="Deletesci()">DELETE</button>
+    <button (click)="Updatesci()">UPDATE</button>
+    <button (click)="Readsci()">READ</button>
+  <div *ngIf="!(SuccessMsg=='')"><h1>{{SuccessMsg}}</h1></div>
+  <div *ngIf="!(ErrorMsg=='')"><h1>{{ErrorMsg}}</h1></div>
+</form>
+  <div *ngIf="canShowData">
+  
+    <hr>
+    <table>
+      <tr>
+        <th colspan="10" style="text-align: center;">
+          <h4>SOCIAL STUDIES</h4>
+        </th>
+      </tr>
+      <tr>
+        <td colspan="4">Unitname</td>
+        <td colspan="6">{{d[0][0]}}</td>
+      </tr>
+      <tr>
+        <td colspan="4">Unitlink</td>
+        <td colspan="6">{{d[0][1]}}</td>
+      </tr>
+    </table>
+</div>

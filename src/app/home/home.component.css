@@ -1,0 +1,11 @@
+B{
+    font-size:30px;
+}
+img{
+    width:700px;
+    height:400px;
+    display: inline-block;
+    margin: 30px;
+    margin-left: 20px;
+    border-radius: 10px;
+}

@@ -1,0 +1,139 @@
+form{
+    width: 500px;
+    /* background-image: url("https://as2.ftcdn.net/v2/jpg/02/10/61/87/1000_F_210618714_u6VAPB1UEYSisqMzQAJomasWDM2Ae4uO.jpg") ; */
+    color: rgb(13, 16, 18);
+    background-color: rgb(242, 242, 243);
+}
+body{
+        background-image: url("https://as2.ftcdn.net/v2/jpg/02/10/61/87/1000_F_210618714_u6VAPB1UEYSisqMzQAJomasWDM2Ae4uO.jpg") ;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    /* background-color: aqua; */
+} 
+.container{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+a{
+    text-decoration: none; 
+    color: aliceblue;
+}
+button{
+    background-color: blue;
+    padding: 10px;
+}
+
+
+
+
+
+
+/* /* html {
+    height: 100%;
+    width: 100%;
+} coments
+/* .reg{
+        background: url("https://images.unsplash.com/photo-1485802007047-7774de7208e5?dpr=1&auto=compress,format&fit=crop&w=1800&h") no-repeat center center fixed;
+
+}  comments */ 
+
+/* body { 
+    height: 100vh;
+    background: url("https://images.unsplash.com/photo-1485802007047-7774de7208e5?dpr=1&auto=compress,format&fit=crop&w=1800&h") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Droid Serif', serif;
+}
+ */
+/* #container {
+    background: rgba(90, 79, 109, 0.5);
+    width: 18.75rem;
+    height: 25rem;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+header {
+    text-align: center;
+    vertical-align: middle;
+    line-height: 4rem;
+    height: 3rem;
+    background: rgba(55, 55, 107, 0.7);
+    font-size: 1.4rem;
+    color: #c9bdbd;
+}
+
+fieldset {
+    border: 0;
+    text-align: center;
+}
+
+input[type="submit"] {
+    background: rgb(235, 61, 30);
+    border: 0;
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    color: white;
+    padding: 0.7rem;
+    cursor: pointer;
+}
+
+input {
+    background: transparent;
+    border: 0;
+    border-left: 4px solid;
+    border-color: #FF0000;
+    padding: 10px;
+    color: white;
+}
+
+input[type="text"]:focus,
+input[type="fullname"]:focus,
+input[type="password"]:focus,
+input[type="phonenumber"]:focus 
+input[type="address"]:focus{
+    outline: 0;
+    background: rgba(235, 30, 54, 0.3);
+    border-radius: 1.2rem;
+    border-color: transparent;
+}
+
+::placeholder {
+    color: #d3d3d3;
+} 
+button {
+    background-color: #FF0000; 
+    border-radius: 15px; 
+    border: none;
+    padding: 10px; 
+    position: relative;
+    bottom: 20px;
+} 
+button a{
+    color: aliceblue;
+    text-decoration: none; 
+    font-size: medium;
+    font-weight: 500;
+}
+
+
+
+@media all and (min-width: 481px) and (max-width: 568px) {
+    #container {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+}
+    @media all and (min-width: 569px) and (max-width: 768px) {
+        #container {
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+    }   */

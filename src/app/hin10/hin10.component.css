@@ -1,0 +1,66 @@
+.hf{
+    margin: 0;
+      padding: 0;
+      font-family: 'monospace'
+    }
+    
+    .toolbar {
+      background-color: #B0E0E6;
+      color: #FFA500;
+      padding: 20px;
+    }
+    
+    .toolbar-button {
+      background-color: #FFA500;
+      border: none;
+      padding: 10px 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 25px;
+      margin-right: 10px;
+    }
+    
+    .toolbar-button:hover {
+      background-color: #777;
+      background-color: #f0f0f0;
+      margin: 0;
+      
+    }
+  .same{
+    display: inline;
+  }
+  .con{
+    margin-right:30px;
+    
+    
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .fisrt {
+    margin-top: 40px;
+  }
+  
+  .same.con {
+    display:flex;
+    align-items:center;
+  }
+  
+  .same.head {
+    font-family: "Arial";
+      color:black;
+      margin-right:200px;
+      
+      font-style:oblique;
+      font-size: 30px;
+  }
+  
+  .same.para {
+    font-family: "Courier";
+      font-size: 30px;
+      font-weight: bold;
+      color:rgb(0, 68, 255);
+      text-decoration-color:red;
+    }

@@ -1,0 +1,167 @@
+table{
+  border-collapse: collapse;
+  text-align: center; 
+  color: black;
+}
+td,th{
+  border: 1px solid ;
+  padding: 10px;
+} 
+.btn{
+  background-color: blue;
+  color: aliceblue;
+  padding: 10px;
+  margin-left: 30px;
+  margin-top: 10px;
+}
+#u{
+  background-color:green;
+  padding: 6px; 
+  color: aliceblue;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+#d{
+background-color:violet;
+padding: 6px; 
+color: aliceblue;
+border: none;
+font-weight: bold;
+border-radius: 5px;
+}
+
+
+#r{
+  background-color: red;
+  padding: 6px;  
+  width: 50px;
+  color: aliceblue;
+  border: none;
+  font-weight: bold; 
+  border-radius: 5px;
+}
+
+.hide{
+  display:inline; 
+  position:fixed;
+  left: 400px;
+  bottom: 90px;
+  background-color: rgb(143, 198, 247); 
+  border: 2px solid black; 
+  padding: 40px; 
+  width: 500px;
+  height: 400px;
+  margin-top: 5px;
+} 
+
+
+
+
+
+
+/* 
+
+
+.demo1{
+  background-color: cadetblue;
+  border: solid 0px red;
+  padding: 10px;
+  padding-left: 60px;
+  box-shadow: rgba(0,0,0,0.56) 0px 22px 70px 4px;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  width: 30vw;
+  margin-left: 500px;
+  color: aqua;
+
+  
+}
+
+
+   table{
+    border-collapse: collapse;
+    text-align: center; 
+    color: black;
+}
+td,th{
+    border: 1px solid ;
+    padding: 10px;
+} 
+
+tr:nth-child(odd){background-color: B}
+
+tr:hover {background-color:rgb(181, 231, 249);}  
+
+#u{
+    background-color:green;
+    padding: 6px; 
+    color: aliceblue;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#d{
+  background-color:violet;
+  padding: 6px; 
+  color: aliceblue;
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+
+#r{
+    background-color: red;
+    padding: 6px;  
+    width: 50px;
+    color: aliceblue;
+    border: none;
+    font-weight: bold; 
+    border-radius: 5px;
+}
+
+.hide{
+    display: inline-block; 
+    position: relative;
+    left: 400px;
+    bottom: 400px;
+    background-color: aliceblue; 
+    border: 2px solid black; 
+    padding: 40px; 
+    width: 500px;
+    height: 400px;
+} 
+i{
+    position: relative;
+    left: 400px;
+    bottom:20px;
+} 
+.hide1{
+    display: inline-block; 
+    position: relative;
+    left: 360px;
+    bottom: 400px;
+    background-color: aliceblue; 
+    border: 2px solid black; 
+    padding: 80px; 
+    width: 600px;
+    height: 500px;
+} 
+input{
+    height: 40px;
+    width: 400px;
+    margin: 10px;
+}
+div button{
+    position: relative;
+    top: 15px;
+    left: 150px; 
+    padding: 10px;
+    background-color: green;
+    color: aliceblue;
+    font-size: medium;
+    font-weight: bold;
+} */

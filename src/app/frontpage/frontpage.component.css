@@ -1,0 +1,57 @@
+h1,h2{
+    text-align: center;
+}
+.pic{
+    display: inline-block;
+    text-align:right;
+}
+h3{
+    text-align:left;
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+    /* padding: 40px;
+    text-align: left; */
+}
+button{
+    color:white;
+    background-color:rgb(98, 43, 226);
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 10px;
+    margin-left: 20px;
+}
+.quote{
+    width:700px;
+    height:450px;
+    text-align: right;
+    padding-left: 200px;
+    padding-top:none;
+
+}
+/* .qr{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+
+} */
+
+/* .qr{
+    width: 33px;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .column{
+    box-shadow: 0 4px 8px 0 rgba(15, 110, 104, 0.2);
+    margin: 8px;
+  } */
+
+  /* .passport-size {
+    width: 150mm;
+    height: 90mm;
+  } */
+  

@@ -1,0 +1,21 @@
+.container{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 500px;
+    margin-left: 500px;
+    margin-top: 200px;
+    background-color: rgb(178, 197, 234);
+}
+a{
+    text-decoration: none; 
+    color: aliceblue;
+}
+button{
+    /* background-color: blue; */
+    background-color: rgb(234, 146, 219);
+    padding: 10px;
+}

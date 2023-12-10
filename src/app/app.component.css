@@ -1,0 +1,23 @@
+header{
+    padding: 12px 0;
+    background: darkorange;
+}
+.menu{
+    margin-top: 12px;
+}
+.menu ul{
+    padding:0px;
+    margin: 0;
+}
+.menu ul li{
+    list-style-type: none;
+    color:white;
+    display: inline-block;
+    font-size:30px;
+    margin-left:50px;
+}
+.menu ul li:hover{
+    color:black;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}

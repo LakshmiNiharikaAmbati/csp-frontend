@@ -1,0 +1,49 @@
+.part-2{
+    color: rgb(220, 20, 167); 
+}
+
+.part-1{ 
+  color: darkblue;  
+} 
+
+
+p{
+    color:midnightblue;
+}
+.link{
+    border:"solid 3px blue";
+    background-color:lightgreen;
+    padding: 10px;
+    border-radius: 36px;
+    color: black;
+}
+form {
+    border: 2px solid gray;
+    /* border-radius: 50px; */
+    display: inline-block; 
+    padding: 20px; 
+    margin: 40px; 
+    margin-left: 550px;
+}
+form input{
+    width: 200px;
+    height: 40px; 
+    margin: 15px; 
+} 
+form button{
+    padding: 10px;
+    background-color: green;
+    color: white;
+    font-size: medium;
+    font-weight: 600; 
+    position: relative;
+}  
+table{
+    border-collapse: collapse;
+}
+td,th{
+    border: 2px solid black;
+} 
+h3{
+    color:deeppink;
+}

@@ -1,0 +1,38 @@
+<h3>To get all the values in the table click the button below</h3>
+<button class="btn"  (click)="ReadAll('All')">GET ALL</button>
+<body class="con">
+    <div class="demo">
+    <table align="center">  
+         <th>Unitname</th><th>Unitlink</th>
+
+        <tr *ngFor="let i of d">
+        <td>{{i[0]}}</td>  
+        <td>{{i[1]}}</td>  
+        <td><button type="button" id="u" (click)="Get(i)">Update</button></td>
+
+        <td><button type="button" id="d" (click)="Delete(i)">Delete</button></td>
+
+        <td><button type="button" id="r" (click)="Read(i)">Read</button></td>
+        </tr>
+    </table> 
+</div>
+</body>
+<div *ngIf="match" class="demo1" [class.hide]="hide"> 
+    <p>Unitname: {{d1[0][0]}}</p>
+    <p>Unitlink: {{d1[0][1]}}</p>
+    <button type="button" (click)="close()">close</button>
+</div> 
+<div *ngIf="match1" class="demo1" [class.hide]="hide"> 
+    <label for="Unitname">Unitname:</label> <br>
+    <input type="text" name="Unitname" [(ngModel)]="User.Unitname"> <br>  
+    <label for="Unitlink">Unitlink:</label> <br>
+    <input type="url" name="Unitlink" [(ngModel)]="User.Unitlink"><br>   
+    <button type="button" (click)="Update()">Update</button>
+    <button type="button" (click)="close()">close</button>
+</div>
+
+
+
+
+
+
